@@ -27,6 +27,8 @@ if proceeds_f > costs_f:
     print(f"Рентабельность выручки = {costs_f / proceeds_f}")
     num_employees_f = int(input("Введите число сотрудников фирмы: "))
     print(f"Прибыль фирмы в расчете на одного сотрудника = {profit / num_employees_f}")
-if proceeds_f < costs_f:
+elif proceeds_f < costs_f:
     lesion = proceeds_f - costs_f
     print(f"Финансовый результат фирмы - Убыток. Его величина {lesion}")
+else:
+    print(f"Финансовый результат фирмы - Вы работаете в 0.")
