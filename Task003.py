@@ -10,7 +10,7 @@
 
 n = input("Введите целое положительное число n: ")
 
-nn = str(n + n)
-nnn = str(n + n + n)
+nn = (n + n)
+nnn = (n + n + n)
 
 print(f"Cумма чисел: n + nn + nnn = {int(n) + int(nn) + int(nnn)}")
