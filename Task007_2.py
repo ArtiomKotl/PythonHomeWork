@@ -18,7 +18,7 @@
 
 class Road:
     weight = 25
-    thickness = float(0.05)
+    thickness = 0.05
 
     def __init__(self, length, width):
         self._length = length
