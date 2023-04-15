@@ -1,0 +1,13 @@
+dict_price:
+  headset: 30€
+  keyboard: 30€
+  monitor: 150€
+  mouse: 15€
+  notebook: 900€
+my_list:
+- notebook
+- monitor
+- keyboard
+- mouse
+- headset
+num_int: 150
