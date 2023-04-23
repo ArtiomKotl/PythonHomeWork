@@ -18,11 +18,11 @@
 
 
 def get_code_points(list_code):
-    c_p_array = []
+    point_list = []
     for el in list_code:
         temp = (el.encode("unicode_escape", "utf-8"))
-        c_p_array.append(temp.decode('utf-8'))
-    return c_p_array
+        point_list.append(temp.decode('utf-8'))
+    return point_list
 
 
 def conversion_print(word_list, points_list):
@@ -45,8 +45,8 @@ print(words == code_points)
 print(type(words))
 print(type(code_points))
 
-code_points_arr = get_code_points(words)
+code_points_list = get_code_points(words)
 
-conversion_print(words, code_points_arr)
+conversion_print(words, code_points_list)
 
 
