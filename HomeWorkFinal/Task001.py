@@ -48,5 +48,3 @@ print(type(code_points))
 code_points_list = get_code_points(words)
 
 conversion_print(words, code_points_list)
-
-

@@ -16,7 +16,7 @@ format_bytes = [b'class', b'function', b'method']
 
 def get_results(user_list):
     for element in user_list:
-        print(f'type: {type(element)} | content: {element} | length: {len(element)}')
+        print(f'Тип: {type(element)} | Содержимое: {element} | Длина: {len(element)}')
 
 
 get_results(format_bytes)
